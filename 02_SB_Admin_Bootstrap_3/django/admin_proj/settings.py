@@ -23,8 +23,8 @@ import os
 from django.core.exceptions import ImproperlyConfigured
 
 
-
-with open(os.path.join(BASE_DIR, 'secrets.json')) as secrets_file:
+#Or BASE_DIR
+with open(os.path.join('/home/danny/OneDrive/DataScience/10_Secrets/django/', 'secrets.json')) as secrets_file:
     secrets = json.load(secrets_file)
 
 def get_secret(setting, secrets=secrets):
@@ -35,6 +35,10 @@ def get_secret(setting, secrets=secrets):
         raise ImproperlyConfigured("Set the {} setting".format(setting))
 
 #############
+
+
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
@@ -45,8 +49,8 @@ SECRET_KEY = 'i+homa9*pwd&=zs3&mmviqmas^p2pei^3v4v3u2j==_d62+7ov'
 DEBUG = True
 
 
-ip=get_secret('DB_PASSWORD')
-ALLOWED_HOSTS = [ip]
+host=get_secret('HOST')
+ALLOWED_HOSTS = [host]
 
 
 # Application definition
