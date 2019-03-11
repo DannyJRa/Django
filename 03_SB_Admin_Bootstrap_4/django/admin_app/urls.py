@@ -11,6 +11,7 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('charts', views.charts, name='charts'),
     path('buttons', views.buttons, name='buttons'),
+    path('cards', views.cards, name='cards'),
     path('utilities_animation', views.utilities_animation, name='utilities_animation'),
     path('chart_csv', views.chart_csv, name='chart_csv'),
    # path('charts_chartjs', views.HomeView, name='charts_chartjs.html'),

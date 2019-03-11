@@ -18,7 +18,8 @@ def chart_csv(request):
 def tables(request):
     return render(request, 'admin_app/tables.html')
 
-
+def cards(request):
+    return render(request, 'admin_app/cards.html')
 ######## Chart.js
 
 from django.http import JsonResponse
