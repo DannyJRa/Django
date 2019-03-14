@@ -50,7 +50,10 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rest_framework',
-
+    #############
+    #Add_Swagger
+    'rest_framework_swagger',
+    #############
     'finance',
     'news',
     'notepad'

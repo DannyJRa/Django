@@ -1,0 +1,16 @@
+Script started on 2019-03-14 14:03:38+0100
+]0;root@instance-3: ~/OneDrive/DataScience/02_CloudComputing/16_Django/_github[01;32mroot@instance-3[00m:[01;34m~/OneDrive/DataScience/02_CloudComputing/16_Django/_github[00m# cd
+]0;root@instance-3: ~[01;32mroot@instance-3[00m:[01;34m~[00m# cd venv
+]0;root@instance-3: ~/venv[01;32mroot@instance-3[00m:[01;34m~/venv[00m# cd djnago-[K_1
+bash: cd: djnago_1: No such file or directory
+]0;root@instance-3: ~/venv[01;32mroot@instance-3[00m:[01;34m~/venv[00m# cd djnago_1[1Pago_1[1Pgo_1ago_1ngo_1
+]0;root@instance-3: ~/venv/django_1[01;32mroot@instance-3[00m:[01;34m~/venv/django_1[00m# pipenv shell
+Launching subshell in virtual environment…
+ . /home/danny/.local/share/virtualenvs/django_1-BxHOEUFe/bin/activate
+]0;root@instance-3: ~/venv/django_1[01;32mroot@instance-3[00m:[01;34m~/venv/django_1[00m#  . /home/danny/.local/share/virtualenvs/django_1-BxHOEUFe/bin/activate
+(django_1) ]0;root@instance-3: ~/venv/django_1[01;32mroot@instance-3[00m:[01;34m~/venv/django_1[00m# cd [K[K[Kexit
+exit
+[0m]0;root@instance-3: ~/venv/django_1[01;32mroot@instance-3[00m:[01;34m~/venv/django_1[00m# [K]0;root@instance-3: ~/venv/django_1[01;32mroot@instance-3[00m:[01;34m~/venv/django_1[00m# exit
+exit
+
+Script done on 2019-03-14 14:06:00+0100
