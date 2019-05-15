@@ -2,7 +2,7 @@ from .base import *
 
 DEBUG=True
 
-HOST=[]
+HOST=['localhost']
 
 INSTALLED_APPS +=[
     

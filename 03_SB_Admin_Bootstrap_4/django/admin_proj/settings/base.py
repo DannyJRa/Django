@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'admin_app',
     'rest_framework',
+    'simple_vuejs',
 ]
 
 MIDDLEWARE = [
